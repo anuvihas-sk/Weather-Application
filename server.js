@@ -12,7 +12,7 @@ app.get("/", (req, res) => res.render("index", { weather: null, error: null }));
 // Handles the /weather route
 app.get("/weather", async (req, res) => {
   const { city } = req.query;
-  const apiKey = "194a3f83b9c0aebcf36009a39afa01cb";
+  const apiKey = "";
   const APIUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${apiKey}`;
   
 // Checks if any error occurs during the API call
