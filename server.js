@@ -27,3 +27,5 @@ app.get("/weather", async (req, res) => {
 // Starts the server
 const port = 3000;
 app.listen(port, () => console.log(`App is running on http://localhost:${port}`));
+
+//Run
